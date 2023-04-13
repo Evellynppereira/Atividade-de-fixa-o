@@ -1,0 +1,34 @@
+programa
+{
+	funcao inicio() 
+	{
+		cadeia contador = "s"
+    
+    caracter simounao
+    real precodoproduto
+    cadeia  nomemaior,nomedoproduto
+    real valormaior=0
+
+   		
+		enquanto(contador == "s") 
+		{
+        escreva("\nQual o nome do produto?:escreva e tecle enter\n")
+        leia(nomedoproduto)
+        escreva("\nQual o preço desse produto?tecle enter\n")
+        leia(precodoproduto)
+        escreva("Deseja registrar outro produto?\n")
+        escreva("Tecle\n (s)-Sim\n (n)-\n\n")
+        leia(contador)
+
+        se(precodoproduto>valormaior){
+          valormaior=precodoproduto 
+          nomemaior=nomedoproduto
+
+        }
+      }
+
+     escreva("O produto mais caro é ",nomemaior)  
+    
+		
+	}
+}

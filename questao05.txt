@@ -1,0 +1,21 @@
+programa
+{
+	funcao inicio() 
+	{
+		inteiro contador = 1
+    inteiro valordigitado
+		inteiro valormaior=0
+
+		enquanto(contador <= 3) 
+		{
+			escreva("Digite um valor:tecle enter\n")
+      leia(valordigitado)
+      contador=contador +1
+      se(valordigitado>valormaior){
+        valormaior=valordigitado
+      }
+		}
+    escreva(valormaior)
+		
+	}
+}

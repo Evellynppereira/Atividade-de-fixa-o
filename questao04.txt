@@ -1,0 +1,62 @@
+programa {
+  funcao inicio() {
+    real valor,valorconvertido
+    inteiro tipodamoeda,tipodaconversao
+
+  escreva("Digite um valor:")
+  leia(valor)
+  escreva("Em qual moeda esse valor está?")
+  escreva("Tecle\n1-real\n2-dólar americano\n3-euro\n")
+  leia(tipodamoeda)   
+  escreva("Você deseja converter o valor para qual moeda?")
+  escreva("Tecle\n1-real\n2-dólar americano\n3-euro\n")
+  leia(tipodaconversao)
+
+    escolha(tipodaconversao){
+      caso 1: 
+       se (tipodamoeda==1){ 
+         valorconvertido==valor
+       }
+       se(tipodamoeda==2) {
+        valorconvertido=valor*0,20 
+         
+       }
+       se(tipodamoeda==3){
+        valorconvertido=valor*0,18 
+
+
+       }
+      caso 2:
+       se(tipodamoeda==1){
+       valorconvertido=valor*5,01
+
+      }
+      se(tipodamoeda==2){
+        valorconvertido==valor
+      }
+      se(tipodamoeda==3){
+        valorconvertido=valor*0,92
+      }
+      
+      caso 3:
+      se(tipodamoeda==1){
+        valorconvertido=valor*5,46
+      }
+      se(tipodamoeda==2){
+        valorconvertido=valor*1,09
+      }
+      se (tipodamoeda==3){
+        valorconvertido=valor
+      }
+
+    }
+       
+      
+
+
+    
+
+
+
+  }
+}

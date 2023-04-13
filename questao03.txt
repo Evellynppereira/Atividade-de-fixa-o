@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao  inicio ()
+	{
+		real ladoUm, ladoDois, ladoTres, ladoQuatro
+
+		escreva ( "Informe a 1º medida da figura e tecle enter.\n" )
+		leia (ladoUm)
+		escreva ( "Informe a 2º medida da figura e tecle enter.\n" )
+		leia (ladoDois)
+		escreva ( "Informe a 3º medida da figura e tecle enter.\n" )
+		leia (lado Tres)
+		escreva ( "Informe a 4º medida da figura e tecle enter.\n" )
+		leia (ladoQuatro)
+
+		area real = ladoUm * ladoDois
+
+		se (ladoUm == ladoDois e ladoUm == ladoTres e ladoUm == ladoQuatro){			
+			escreva ( "Essas medidas são de um quadrado. O valor da área é: " + area + "\n" )
+		}
+		senao {
+			escreva ( "Essas medidas são de um retângulo. O valor da área é: " + área + "\n" )
+		}
+	}
+}
